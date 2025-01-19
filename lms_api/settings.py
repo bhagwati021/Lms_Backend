@@ -109,6 +109,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://0b749d41-35db-4a9a-9160-94e29b2c7a2f-00-1vp3zltms9cus.sisko.replit.dev',
+]
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
